@@ -766,7 +766,9 @@ nav ul{
         for extra large screen: 1200px and more */
 
         @media(max-width:600px) {
-            nav{width: 100%;}
+            nav{
+                width: 100%;
+            }
             .logo{
                 width: 60px;
                 margin-left: 5px;
@@ -780,7 +782,11 @@ nav ul{
                 margin-top: -7px;
                 height: 2px;
             }
-
+            /* .icons{
+                width: 0;
+                height: 0;
+                left: -150px;
+            } */
             .email{left: -3550px;
             font-size: 0;}
 
@@ -1019,7 +1025,6 @@ nav ul{
     .icons img{
         width: 20px;
     }
-
 
 
         }

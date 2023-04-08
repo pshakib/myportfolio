@@ -780,11 +780,7 @@ nav ul{
                 margin-top: -7px;
                 height: 2px;
             }
-            .icons{
-                width: 0;
-                height: 0;
-                left: -150px;
-            }
+
             .email{left: -3550px;
             font-size: 0;}
 
@@ -1016,15 +1012,12 @@ nav ul{
     .icons{
         flex-direction: row;
         position: absolute;
-        margin-top: 5540px;
-        margin-left: 180px;
+        font-size: 0;
+        margin-top: 5530px;
+        left: 0;
     }
     .icons img{
         width: 20px;
-        position: absolute;
-    }
-    .icons p{
-        font-size: 0;
     }
 
 
